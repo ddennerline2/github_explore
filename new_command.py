@@ -5,6 +5,7 @@ def main(args):
     print("bought fruit")
     print("bought rice")
     print("Change1")
+    print("Change2")
 
 
 if __name__ == "__main__":
