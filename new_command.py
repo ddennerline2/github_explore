@@ -1,6 +1,9 @@
 def main(args):
     """This function starts processing of new commands."""
     print(f"hello world: {args}")
+    print("ran to store")
+    print("bought fruit")
+    print("bought rice")
 
 
 if __name__ == "__main__":
