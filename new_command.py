@@ -1,8 +1,8 @@
-def main():
+def main(args):
     """This function starts processing of new commands."""
-    print("hello world")
+    print(f"hello world: {args}")
 
 
 if __name__ == "__main__":
     """This function starts processing of new commands."""
-    main()
+    main(("--args", "/home/example"))
