@@ -5,11 +5,16 @@ def print_timestamp():
 
 def print_fruits(fruits):
     for fruit in fruits:
-        print(f"bought {fruit}")
+        print(f"bought lovely {fruit}")
 
 def print_starches(starches):
     for starch in starches:
-        print(f"bought {starch}")
+        print(f"bought lovely {starch}")
+
+def print_sweets(sweets):
+    for sweet in sweets:
+        print(f"bought lovely {sweet}")
+
 
 
 def main(args):
@@ -19,7 +24,7 @@ def main(args):
     print("ran to store")
     print_fruits(("apple", "cherry", "grape"))
     print_starches(("rice", "bread"))
-    print("bought sugar")
+    print_sweets(("sugar", "honey"))
     print("bought egg")
 
 
