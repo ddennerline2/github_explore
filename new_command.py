@@ -11,10 +11,13 @@ def print_starches(starches):
     for starch in starches:
         print(f"bought lovely {starch}")
 
-def print_sweets(sweets):
+def show_sweets(sweets):
     for sweet in sweets:
         print(f"bought lovely {sweet}")
 
+def show_dairy(dairies):
+    for dairy in dairies:
+        print(f"bought pretty {dairy}")
 
 
 def main(args):
@@ -24,7 +27,8 @@ def main(args):
     print("ran to store")
     print_fruits(("apple", "cherry", "grape"))
     print_starches(("rice", "bread"))
-    print_sweets(("sugar", "honey"))
+    show_sweets(("sugar", "honey"))
+    show_dairy(("milk",))
     print("bought egg")
 
 
